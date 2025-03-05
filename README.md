@@ -38,12 +38,12 @@ This system allows real-time **maze generation and solving** on the **LandTiger 
 ### 🎥 **LinkedIn Video**  
 Watch the project demo on **LinkedIn**:  
 
-🔗 **[Watch on LinkedIn](YOUR_LINKEDIN_VIDEO_URL)**  
+🔗 **[Watch on LinkedIn](https://www.linkedin.com/posts/amirhossein-shirvani-dastgerdi-358136219_embeddedsystems-microcontroller-arm-activity-7303092515753058304-_oI_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcDuXQB4CVCm_GvXTnpu6nZF7eTd2DXMj4)**  
 
 ### 🎥 **YouTube Video**  
 Click below to watch the demo on **YouTube**:  
 
-[Watch the video](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID)  
+[Watch the video](https://youtu.be/p9cDnvQmLTc?si=FjwSWftgKeCkODOn)  
 
 ---
 
