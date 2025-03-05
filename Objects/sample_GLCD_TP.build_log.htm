@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: amirhossein shirvani dastgerdi, university, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.41.0.0
+Toolchain Path:  C:\Users\PRECISION\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DARMP1.DLL V1.28.1.0
+Target DLL:      UL2CM3.DLL V1.164.14.0
+Dialog DLL:      TARMP1.DLL V1.27.1.0
+ 
+<h2>Project:</h2>
+C:\Users\PRECISION\Desktop\Maze solver\sample.uvprojx
+Project File Date:  02/27/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\PRECISION\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'LandTiger_LPC1768 (release)'
+creating preprocessor file for lib_timer.c...
+creating preprocessor file for AsciiLib.c...
+assembling startup_LPC17xx.s...
+creating preprocessor file for system_LPC17xx.c...
+creating preprocessor file for sample.c...
+compiling sample.c...
+creating preprocessor file for IRQ_timer.c...
+compiling IRQ_timer.c...
+compiling AsciiLib.c...
+compiling lib_timer.c...
+compiling system_LPC17xx.c...
+creating preprocessor file for GLCD.c...
+creating preprocessor file for IRQ_button.c...
+creating preprocessor file for lib_button.c...
+creating preprocessor file for HzLib.c...
+compiling IRQ_button.c...
+compiling lib_button.c...
+creating preprocessor file for IRQ_RIT.c...
+creating preprocessor file for lib_RIT.c...
+compiling lib_RIT.c...
+compiling GLCD.c...
+creating preprocessor file for funct_joystick.c...
+creating preprocessor file for lib_joystick.c...
+compiling funct_joystick.c...
+Source/RIT/IRQ_RIT.c(103): warning: variable length array folded to constant array as an extension [-Wgnu-folding-constant]
+  103 | char mymatrix[C_NUM_ROWS][C_NUM_COLUMNS];
+      |      ^
+Source/RIT/IRQ_RIT.c(197): warning: incompatible pointer types passing 'char[30][30]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+  197 |                     Change_case(C_NUM_ROWS, C_NUM_COLUMNS, mymatrix, &number_of_clicks);
+      |                                                            ^~~~~~~~
+Source/RIT/IRQ_RIT.c(88): note: passing argument to parameter here
+   88 | extern void Change_case(int, int, char *, int *);
+      |                                         ^
+Source/RIT/IRQ_RIT.c(292): warning: incompatible pointer types passing 'char[30][30]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+  292 |                 mazeSolver(C_NUM_ROWS, C_NUM_COLUMNS, mymatrix, &iteration);
+      |                                                       ^~~~~~~~
+Source/RIT/IRQ_RIT.c(87): note: passing argument to parameter here
+   87 | extern void mazeSolver(int, int, char *, int *);
+      |                                        ^
+3 warnings generated.
+compiling IRQ_RIT.c...
+compiling lib_joystick.c...
+compiling HzLib.c...
+linking...
+Program Size: Code=25000 RO-data=1964 RW-data=12 ZI-data=2068  
+".\Objects\sample_GLCD_TP.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.7.1.pack
+                Keil::LPC1700_DFP@2.7.1
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_LandTiger_LPC1768__release_
+  C:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

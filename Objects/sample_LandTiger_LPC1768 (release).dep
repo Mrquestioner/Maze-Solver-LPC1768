@@ -1,0 +1,81 @@
+Dependencies for Project 'sample', Target 'LandTiger_LPC1768 (release)': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\Source\startup_LPC17xx.s)(0x67C7A8CA)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --diag_suppress=A1950W -I .\Source -I .\Source\CMSIS_core -I .\Source\GLCD -I .\Source\timer -I .\Source\button_EXINT -I .\Source\TouchPanel-I.\RTE\_LandTiger_LPC1768__release_-IC:\Users\PRECISION\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include--pd "__UVISION_VERSION SETA 541"--pd "LPC175x_6x SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_lpc17xx.lst--xref -o .\objects\startup_lpc17xx.o--depend .\objects\startup_lpc17xx.d)
+F (.\Source\sample.c)(0x67C7B56F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/sample.o -MMD)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+I (Source\GLCD\GLCD.h)(0x67C6D79D)
+I (Source\timer\timer.h)(0x67C02B82)
+I (Source\button_EXINT\button.h)(0x67B9169A)
+I (Source\RIT\RIT.h)(0x679CF120)
+I (Source\joystick\joystick.h)(0x671F3E49)
+F (.\Source\system_LPC17xx.c)(0x67B9169A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/system_lpc17xx.o -MMD)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+F (.\Source\timer\IRQ_timer.c)(0x679928D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/irq_timer.o -MMD)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+I (Source\timer\timer.h)(0x67C02B82)
+F (.\Source\timer\lib_timer.c)(0x679928D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/lib_timer.o -MMD)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+I (Source\timer\timer.h)(0x67C02B82)
+F (.\Source\timer\timer.h)(0x67C02B82)()
+F (.\Source\GLCD\AsciiLib.c)(0x67B9169A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/asciilib.o -MMD)
+I (Source\GLCD\AsciiLib.h)(0x67B9169A)
+F (.\Source\GLCD\AsciiLib.h)(0x67B9169A)()
+F (.\Source\GLCD\GLCD.c)(0x67C7B69D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/glcd.o -MMD)
+I (Source\GLCD\GLCD.h)(0x67C6D79D)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+I (Source\GLCD\AsciiLib.h)(0x67B9169A)
+F (.\Source\GLCD\GLCD.h)(0x67C6D79D)()
+F (.\Source\GLCD\HzLib.c)(0x67B9169A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/hzlib.o -MMD)
+I (Source\GLCD\HzLib.h)(0x67B9169A)
+F (.\Source\GLCD\HzLib.h)(0x67B9169A)()
+F (.\Source\CMSIS_core\cmsis_armclang.h)(0x67B9169A)()
+F (.\Source\CMSIS_core\cmsis_compiler.h)(0x67B9169A)()
+F (.\Source\CMSIS_core\cmsis_version.h)(0x67B9169A)()
+F (.\Source\CMSIS_core\core_cm3.h)(0x67B9169A)()
+F (.\Source\CMSIS_core\mpu_armv7.h)(0x67B9169A)()
+F (.\Source\button\IRQ_button.c)(0x67C02B82)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/irq_button.o -MMD)
+I (Source\button\button.h)(0x67BE2C1A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+F (.\Source\button\lib_button.c)(0x679928D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/lib_button.o -MMD)
+I (Source\button\button.h)(0x67BE2C1A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+F (..\12_sample_GLCD_TP\Source\button\button.h)(0x00000000)()
+F (.\Source\RIT\IRQ_RIT.c)(0x67C7B56F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/irq_rit.o -MMD)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+I (Source\RIT\RIT.h)(0x679CF120)
+I (Source\RIT\..\GLCD\GLCD.h)(0x67C6D79D)
+I (Source\button_EXINT\button.h)(0x67B9169A)
+I (Source\timer\timer.h)(0x67C02B82)
+F (.\Source\RIT\lib_RIT.c)(0x679AC5C6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/lib_rit.o -MMD)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+I (Source\RIT\RIT.h)(0x679CF120)
+F (.\Source\RIT\RIT.h)(0x679CF120)()
+F (.\Source\joystick\funct_joystick.c)(0x67C04623)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/funct_joystick.o -MMD)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+I (Source\joystick\joystick.h)(0x671F3E49)
+F (.\Source\joystick\joystick.h)(0x671F3E49)()
+F (.\Source\joystick\lib_joystick.c)(0x675DFDC9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768__release_-IC:/Users/PRECISION/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/PRECISION/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_-o ./objects/lib_joystick.o -MMD)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x67220ECC)
+I (Source\CMSIS_core\core_cm3.h)(0x67B9169A)
+I (C:\Users\PRECISION\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x67220ECC)
+I (Source\joystick\joystick.h)(0x671F3E49)

@@ -1,0 +1,52 @@
+Dependencies for Project 'sample', Target 'LandTiger_LPC1768': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\Source\startup_LPC17xx.s)(0x66F2A446)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --diag_suppress=A1950W -I .\Source -I .\Source\CMSIS_core -I .\Source\GLCD -I .\Source\timer -I .\Source\button_EXINT -I .\Source\TouchPanel-I.\RTE\_LandTiger_LPC1768-IC:\Users\paolo\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include--pd "__UVISION_VERSION SETA 541"--pd "LPC175x_6x SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_lpc17xx.lst--xref -o .\objects\startup_lpc17xx.o--depend .\objects\startup_lpc17xx.d)
+F (.\Source\sample.c)(0x670E30E3)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768-IC:/Users/paolo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/paolo/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_ -DSIMULATOR-o ./objects/sample.o -MMD)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (Source\CMSIS_core\core_cm3.h)(0x626FAD4E)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (Source\GLCD\GLCD.h)(0x5E1315E3)
+I (Source\TouchPanel\TouchPanel.h)(0x5E131400)
+I (Source\timer\timer.h)(0x5C18CB60)
+F (.\Source\system_LPC17xx.c)(0x5FCA5FF7)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768-IC:/Users/paolo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/paolo/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_ -DSIMULATOR-o ./objects/system_lpc17xx.o -MMD)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (Source\CMSIS_core\core_cm3.h)(0x626FAD4E)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+F (.\Source\timer\IRQ_timer.c)(0x66F2A0BF)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768-IC:/Users/paolo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/paolo/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_ -DSIMULATOR-o ./objects/irq_timer.o -MMD)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (Source\CMSIS_core\core_cm3.h)(0x626FAD4E)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (Source\timer\timer.h)(0x5C18CB60)
+I (Source\timer\..\GLCD\GLCD.h)(0x5E1315E3)
+I (Source\timer\..\TouchPanel\TouchPanel.h)(0x5E131400)
+F (.\Source\timer\lib_timer.c)(0x66F2A09E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768-IC:/Users/paolo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/paolo/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_ -DSIMULATOR-o ./objects/lib_timer.o -MMD)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (Source\CMSIS_core\core_cm3.h)(0x626FAD4E)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (Source\timer\timer.h)(0x5C18CB60)
+F (.\Source\timer\timer.h)(0x5C18CB60)()
+F (.\Source\GLCD\AsciiLib.c)(0x4CEFE446)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768-IC:/Users/paolo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/paolo/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_ -DSIMULATOR-o ./objects/asciilib.o -MMD)
+I (Source\GLCD\AsciiLib.h)(0x4CEFE47F)
+F (.\Source\GLCD\AsciiLib.h)(0x4CEFE47F)()
+F (.\Source\GLCD\GLCD.c)(0x5FF87651)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768-IC:/Users/paolo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/paolo/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_ -DSIMULATOR-o ./objects/glcd.o -MMD)
+I (Source\GLCD\GLCD.h)(0x5E1315E3)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (Source\CMSIS_core\core_cm3.h)(0x626FAD4E)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (Source\GLCD\AsciiLib.h)(0x4CEFE47F)
+F (.\Source\GLCD\GLCD.h)(0x5E1315E3)()
+F (.\Source\GLCD\HzLib.c)(0x4CF0C8E2)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768-IC:/Users/paolo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/paolo/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_ -DSIMULATOR-o ./objects/hzlib.o -MMD)
+I (Source\GLCD\HzLib.h)(0x4CF00CD6)
+F (.\Source\GLCD\HzLib.h)(0x4CF00CD6)()
+F (.\Source\TouchPanel\TouchPanel.c)(0x65816C6C)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel-I./RTE/_LandTiger_LPC1768-IC:/Users/paolo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/paolo/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-D__UVISION_VERSION="541" -DLPC175x_6x -D_RTE_ -DSIMULATOR-o ./objects/touchpanel.o -MMD)
+I (Source\TouchPanel\..\GLCD\GLCD.h)(0x5E1315E3)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (Source\CMSIS_core\core_cm3.h)(0x626FAD4E)
+I (C:\Users\paolo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (Source\TouchPanel\..\TouchPanel\TouchPanel.h)(0x5E131400)
+F (.\Source\TouchPanel\TouchPanel.h)(0x5E131400)()
+F (.\Source\CMSIS_core\cmsis_armclang.h)(0x626FAD4E)()
+F (.\Source\CMSIS_core\cmsis_compiler.h)(0x626FAD4E)()
+F (.\Source\CMSIS_core\cmsis_version.h)(0x626FAD4E)()
+F (.\Source\CMSIS_core\core_cm3.h)(0x626FAD4E)()
+F (.\Source\CMSIS_core\mpu_armv7.h)(0x626FAD4E)()
