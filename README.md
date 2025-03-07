@@ -45,10 +45,4 @@ Click below to watch the demo on **YouTube**:
 
 [Watch the video](https://youtu.be/p9cDnvQmLTc?si=FjwSWftgKeCkODOn)  
 
----
 
-## 🚀 **Getting Started**  
-### 🔹 **1. Clone the Repository**  
-```sh
-git clone https://github.com/Mrquestioner/Maze-Solver-LPC1768.git
-cd Maze-Solver-LPC1768
